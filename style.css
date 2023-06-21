@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     width: 80%;
     margin: 0 auto;
-    padding: 1rem;
+    padding: 1em 2em 0 1em;
 }
 
 /* Typography */
@@ -62,3 +62,51 @@ footer {
 }
 
 /* Header */
+header {
+    background-color: #2d63b6;
+    width: 100%;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* make it look like cards */
+.page-wrapper {
+    gap: 1em;
+}
+.page-wrapper > *:not(.intro) {
+    background-color: #212121;
+    border-radius: 0.5rem;
+    padding: 1em;
+}
+
+.intro {
+    background-color: #212121;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.intro > *:not(header) {
+    padding: 0 1em 1em;
+}
+
+/* links */
+a {
+    color: #2d63b6;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    height: 3em;
+    background-color: #2d63b6;
+    color: #fff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer a {
+    color: #fff;
+}
