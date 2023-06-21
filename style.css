@@ -91,10 +91,28 @@ h1 {
     padding: 0 1em 1em;
 }
 
+/* aside */
+aside li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
 /* links */
 a {
     color: #2d63b6;
     text-decoration: none;
+}
+
+a:link {
+    color: #2d63b6;
+}
+
+a:visited {
+    color: #1e4277;
+}
+
+a:hover {
+    color: #96b1db;
 }
 
 /* Footer */
@@ -109,4 +127,16 @@ footer {
 
 footer a {
     color: #fff;
+}
+
+footer a:link {
+    color: #fff;
+}
+
+footer a:visited {
+    color: #1e4277;
+}
+
+footer a:hover {
+    color: #96b1db;
 }
